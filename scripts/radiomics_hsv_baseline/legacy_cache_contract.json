@@ -1,0 +1,32 @@
+{
+  "legacy_code": "0c1ef12dfc216128e92a0e3e0de6b5861ab33696faf564fc1563dcb690f00384",
+  "source_hashes": {
+    "scripts\\radiomics_hsv_baseline\\common.py": "dcdf0e9bfff00b95f47ab960b5d6016235c9aad834a46bfc8af88c7e20fd036b",
+    "scripts\\radiomics_hsv_baseline\\dataset.py": "51f7defb3aa363684fb896c5e8b917feec1983fc8c06f8c651f9528151f53d56",
+    "scripts\\radiomics_hsv_baseline\\evaluation.py": "af280d9f072dce9336171896397b55b18c4878ba4138b277b903c3d6cac5eb49",
+    "scripts\\radiomics_hsv_baseline\\extract_hsv.py": "3a1109b7b2d2929b8ef05567880e8a22f443d2634e84d2cc879ea1ecde28f78b",
+    "scripts\\radiomics_hsv_baseline\\extract_radiomics.py": "bd0e269916f12f52b7c64170da10e9f022b2b04380ed1faf86cb31e36ac652e5",
+    "scripts\\radiomics_hsv_baseline\\feature_fusion.py": "c8601341d05c26c7665ee58d9f960a7410c344781e51436954095007be03683a",
+    "scripts\\radiomics_hsv_baseline\\image_qc.py": "055bc5ae5c536b9501e4113313d8f26381a9ae8395fafb26329538791f7b5645",
+    "scripts\\radiomics_hsv_baseline\\roi_utils.py": "dbad51304310c3e2d252c00719ca23546a3403fe57da6b80a8d125761f9a7dcf",
+    "scripts\\radiomics_hsv_baseline\\run.py": "59e3839e473b4361668fa2a8b69fd6ac37133a298596509cb9bea3b149843119",
+    "scripts\\radiomics_hsv_baseline\\test_pipeline.py": "1fefcfd96425903105cbfd7b20fabfd6deaf6d468cb987bacf833b91650154d2",
+    "scripts\\radiomics_hsv_baseline\\train_classifiers.py": "f4f1116739a026019b3189cd9fdba0427c4b4b393271d2655c56f210449d8a22",
+    "scripts\\radiomics_hsv_baseline\\visualize.py": "279877cfdf075ef68f5b52aa056cdf85c11b5fa45e59a39a70c0249668728f6b",
+    "scripts\\radiomics_hsv_baseline\\__init__.py": "3f389f403cb3c5c62ed9e7a23cddecb4003aa0f1ae1a452ca19da901f8e9db9c",
+    "scripts\\down_sample\\downsample_images.py": "4fec95c27ec35acae0d72221978b02f8ec5d91d081a1653c373da2817c52dd01"
+  },
+  "note": "Reviewed legacy Original 2D gray + HSV extractor; retained for migration audit",
+  "approved_extraction_sources": {
+    "scripts\\radiomics_hsv_baseline\\extract_radiomics.py": "d0969f045e14599e51ccaffe84e2743e2708020cb6a5573269fc3b95e4f4b686",
+    "scripts\\radiomics_hsv_baseline\\extract_hsv.py": "3a1109b7b2d2929b8ef05567880e8a22f443d2634e84d2cc879ea1ecde28f78b",
+    "scripts\\radiomics_hsv_baseline\\roi_utils.py": "dbad51304310c3e2d252c00719ca23546a3403fe57da6b80a8d125761f9a7dcf",
+    "scripts\\radiomics_hsv_baseline\\image_qc.py": "055bc5ae5c536b9501e4113313d8f26381a9ae8395fafb26329538791f7b5645",
+    "scripts\\radiomics_hsv_baseline\\feature_fusion.py": "c8601341d05c26c7665ee58d9f960a7410c344781e51436954095007be03683a",
+    "scripts\\down_sample\\downsample_images.py": "4fec95c27ec35acae0d72221978b02f8ec5d91d081a1653c373da2817c52dd01"
+  },
+  "legacy_codes": [
+    "0c1ef12dfc216128e92a0e3e0de6b5861ab33696faf564fc1563dcb690f00384",
+    "82d8b126d8b9599dd344cb8e5b76fb0c0dfb4051f87ba77af1e8e79e5c5e3241"
+  ]
+}

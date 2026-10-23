@@ -1,0 +1,13 @@
+numpy==1.26.4
+pandas==2.2.3
+openpyxl==3.1.5
+opencv-python-headless==4.11.0.86
+SimpleITK==2.4.1
+pyradiomics==3.1.0
+scikit-learn==1.6.1
+xgboost==2.1.4
+PyYAML==6.0.3
+matplotlib==3.9.4
+joblib==1.5.3
+tqdm==4.67.1
+Pillow==11.3.0

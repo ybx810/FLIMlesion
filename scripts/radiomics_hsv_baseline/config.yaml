@@ -1,0 +1,32 @@
+data_root: outputs/downsampled
+metadata: metadata.xlsx
+metadata_columns: {sample_id: 切片编号, patient_id: 患者编号, label: 类型}
+output_root: outputs/radiomics_hsv_baseline_5fold
+methods: [area, lanczos, gaussain_pyramid]
+resolutions: [1024, 2048, 4096]
+seed: 42
+cv: {n_splits: 5, shuffle: false, existing_splits: null}
+roi:
+  mask_root: null
+  background_filter: false
+  min_value: 10
+  exclude_white: false
+  white_min_value: 245
+  white_max_saturation: 10
+  min_pixels: 64
+  warning_background_ratio: 0.8
+radiomics: {binWidth: 16, distances: [1]}
+hsv:
+  hue_bins: 12
+  saturation_bins: 8
+  value_bins: 8
+  hue_min_saturation: 25
+  min_component_area: 16
+  colors:
+    Yellow: {h_ranges: [[20, 40]], s: [40, 255], v: [20, 255]}
+    Pink: {h_ranges: [[140, 179], [0, 10]], s: [40, 255], v: [20, 255]}
+    Green: {h_ranges: [[41, 90]], s: [40, 255], v: [20, 255]}
+preprocessing: {correlation_threshold: null, standardize: false}
+rf: {n_estimators: 300, max_features: sqrt, class_weight: balanced}
+xgboost: {n_estimators: 200, max_depth: 3, learning_rate: 0.05, subsample: 0.8, colsample_bytree: 0.8, tree_method: hist, eval_metric: mlogloss}
+preview_count: 8

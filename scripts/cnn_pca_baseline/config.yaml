@@ -1,0 +1,7 @@
+radiomics_root: outputs/radiomics_hsv_baseline_5fold
+radiomics_config: scripts/radiomics_hsv_baseline/config_5fold.yaml
+output_root: outputs/cnn_pca_baseline_5fold
+split_source: outputs/radiomics_hsv_baseline_5fold/cv_splits/cv_splits.csv
+pca_components: 64
+threads: 4
+weight_cache: outputs/cnn_pca_baseline/weights

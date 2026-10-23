@@ -1,0 +1,46 @@
+﻿# Python environments
+/.conda-radiomics/
+/.venv-cnn/
+/.venv-radiomics/
+/.venv/
+/venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local editor settings
+/.vscode/
+/.idea/
+
+# Research data and generated outputs
+/data/
+/outputs/
+/metadata.xlsx
+/single_cell_01.json
+/spatial_transcriptomics_01.json
+
+# Model weights and serialized models
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.pkl
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Temporary files
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
